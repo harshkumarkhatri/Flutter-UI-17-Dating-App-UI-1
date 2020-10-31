@@ -1,4 +1,7 @@
+// This is the unlock screen where the fingerprint is made
+
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Screen4 extends StatefulWidget {
@@ -147,7 +150,15 @@ class NavDrawer extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                onTap: () => {Navigator.pop(context)},
+                onTap: () => {
+                  Navigator.pop(context),
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => Screen6(),
+                    ),
+                  ),
+                },
               ),
             ),
             Ink(
