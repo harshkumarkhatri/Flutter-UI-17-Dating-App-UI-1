@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen3.5_ForgotPassword.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen3_Signup.dart';
-import 'package:flutter_ui_17_dating_app_ui_1/Screen4_HomePage.dart';
+import 'package:flutter_ui_17_dating_app_ui_1/Screen4&5_HomePage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Screen2 extends StatefulWidget {
