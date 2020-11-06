@@ -160,7 +160,28 @@ class _UAScreensState extends State<UAScreens> {
                     ),
                   ),
                 ),
-                
+                GestureDetector(
+                  onTap: () {
+                    get_image();
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(15),
+                    child: Container(
+                      height: 50,
+                      color: Colors.blue,
+                      child: Center(
+                        child: Text(
+                          "Open Camera",
+                          style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w300,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                )
               ],
             ),
           ),
