@@ -192,8 +192,8 @@ class _Screen23State extends State<Screen23> {
 
   // Sign in and signout with twitter
   static final TwitterLogin twitterLogin = new TwitterLogin(
-    consumerKey: 'kkOvaF1Mowy4JTvCxKTV5O1WF',
-    consumerSecret: 'ZECGsI6UUDBEUVGkJe4S5vd0FGqGxC3wMJCgsXgPRfjSwRFnyH',
+    consumerKey: '',
+    consumerSecret: '',
   );
 
   String _message = 'Logged out.';
