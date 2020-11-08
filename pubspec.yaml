@@ -30,6 +30,17 @@ dependencies:
   cupertino_icons: ^0.1.3
   font_awesome_flutter: ^8.10.0
   image_picker: ^0.6.7+4
+  carousel_slider: ^2.2.1
+  carousel_pro: ^1.0.0
+  flutter_spinkit: "^4.1.2"
+  firebase_auth: ^0.18.2
+  flutter_login_facebook: ^0.4.0+1
+  provider: ^4.3.2+2
+  firebase_core: ^0.5.1
+  flutter_facebook_login: ^3.0.0
+  http: ^0.12.2
+  google_sign_in: ^4.5.6
+  flutter_twitter_login: ^1.1.0
 
 dev_dependencies:
   flutter_test:
