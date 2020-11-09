@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to the video call screen
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
@@ -17,7 +17,6 @@ class _Screen12State extends State<Screen12> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Video Call"),
         flexibleSpace: Container(
@@ -78,7 +77,6 @@ class _Screen12State extends State<Screen12> {
                     Container(
                       width: 110,
                       height: 45,
-                      // color: Colors.red,
                       decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(

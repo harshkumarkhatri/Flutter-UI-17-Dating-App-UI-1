@@ -1,10 +1,10 @@
+// This file has the widget for screen 19 which has both text & photo in it.
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 Widget textPhoto() {
   return Container(
-    // height: 50,
-    // color: Colors.amber[600],
     child: Row(
       children: [
         Container(
@@ -74,7 +74,6 @@ Widget textPhoto() {
                 ],
               ),
               SizedBox(height: 3),
-              // TODO: make text to appear in multiple lines
               Container(
                 child: Text(
                   'your long text hereThis is a long texnijnij nin in inijn njn jknio niojmn iuont',

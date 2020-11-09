@@ -1,3 +1,5 @@
+// This file has the widget for screen 19 which has photo items for the only photo activity.
+
 import 'package:flutter/material.dart';
 
 Widget photoItem(context) {

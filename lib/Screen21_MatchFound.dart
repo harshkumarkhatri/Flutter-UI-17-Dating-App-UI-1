@@ -1,3 +1,5 @@
+// This file has the code related to match found screen.
+
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -36,11 +38,6 @@ class _Screen21State extends State<Screen21> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // const SpinKitRipple(
-                    //   color: Colors.yellow,
-                    //   borderWidth: 30,
-                    //   size: 160,
-                    // ),
                     Container(
                         height: 120,
                         width: 120,

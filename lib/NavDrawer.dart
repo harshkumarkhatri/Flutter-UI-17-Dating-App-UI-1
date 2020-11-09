@@ -1,3 +1,5 @@
+// THis file has the drawer which is then implemented in every screen
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen15_Messages.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen16_Notifications.dart';
@@ -13,7 +15,6 @@ class NavDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        // color: Colors.pink,
         decoration: BoxDecoration(
           gradient: LinearGradient(colors: [
             Colors.pink[600],
@@ -24,21 +25,6 @@ class NavDrawer extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            // Container(
-            //   height: 120,
-            //   // color: Colors.pink,
-            //   padding: EdgeInsets.all(12),
-            //   child: Text(
-            //     "Sushy",
-            //     style: TextStyle(
-            //       letterSpacing: 1.4,
-            //       color: Colors.white,
-            //       fontSize: 32,
-            //       fontWeight: FontWeight.w400,
-            //     ),
-            //   ),
-            //   alignment: Alignment.bottomLeft,
-            // ),
             SafeArea(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20, top: 15),

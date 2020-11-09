@@ -1,3 +1,5 @@
+// THis file has the code related to carousel/tour screen
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:carousel_slider/carousel_controller.dart';
 import 'package:flutter/material.dart';
@@ -37,8 +39,6 @@ class _Screen20State extends State<Screen20> {
                   Navigator.of(context).pop();
                   Navigator.of(context).pushReplacement(new MaterialPageRoute(
                       builder: (BuildContext context) => null));
-                  // Navigator.of(context).push(MaterialPageRoute(
-                  //     builder: (context) => NewsItems(snackBarText)));
                 },
                 child: Text(
                   "DENY",
@@ -104,16 +104,6 @@ class _Screen20State extends State<Screen20> {
     return Scaffold(
       body: Stack(
         children: [
-          // Backgroung image
-          // Image(
-          //   fit: BoxFit.cover,
-          //   height: MediaQuery.of(context).size.height,
-          //   width: MediaQuery.of(context).size.width,
-          //   image: NetworkImage(
-          //       "https://ogury.com/wp-content/uploads/2017/07/DaterAnalysis.jpg"),
-          // ),
-
-          // Column having other widgets(buttons, text and, containers)
           Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [

@@ -1,3 +1,5 @@
+// This file has the widget message screen which has only media in it.
+
 import 'package:flutter/material.dart';
 
 Widget onlyMedia(context, ) {
@@ -11,9 +13,7 @@ Widget onlyMedia(context, ) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -26,17 +26,6 @@ Widget onlyMedia(context, ) {
                       right: 55.0, left: 20, top: 10, bottom: 13),
                   child: Column(
                     children: [
-                      // Text(
-                      //   message,
-                      //   style: TextStyle(
-                      //     color: Colors.grey,
-                      //     fontSize: 20,
-                      //     fontWeight: FontWeight.w300,
-                      //   ),
-                      // ),
-                      // SizedBox(
-                      //   height: 15,
-                      // ),
                       Row(
                         children: [
                           Container(

@@ -1,3 +1,6 @@
+// This file has widget related to notification when someone sends you a friend request.
+
+
 import 'package:flutter/material.dart';
 
 Widget someoneSentAFriendRequest(context) {
@@ -11,9 +14,7 @@ Widget someoneSentAFriendRequest(context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -50,9 +51,6 @@ Widget someoneSentAFriendRequest(context) {
                             ),
                           ),
                         ),
-                        // height: 20,
-                        // width: 90,
-                        // color: Colors.red,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           gradient: LinearGradient(

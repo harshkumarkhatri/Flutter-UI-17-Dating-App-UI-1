@@ -1,5 +1,6 @@
+// This file has the code related to the forgot password screen
+
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_17_dating_app_ui_1/Screen3_Signup.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Screen3_5 extends StatefulWidget {
@@ -14,7 +15,6 @@ class _Screen3_5State extends State<Screen3_5> {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        // color: Colors.grey,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.center,
@@ -45,7 +45,8 @@ class _Screen3_5State extends State<Screen3_5> {
                   ),
                 ),
                 Text(
-                  "A password reset mail will be send to you on the registered email address",textAlign: TextAlign.center,
+                  "A password reset mail will be send to you on the registered email address",
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w300,
@@ -53,7 +54,7 @@ class _Screen3_5State extends State<Screen3_5> {
                     fontSize: 16,
                   ),
                 ),
-                SizedBox(height:55),
+                SizedBox(height: 55),
                 TextField(
                   decoration: InputDecoration(
                     enabledBorder: UnderlineInputBorder(
@@ -85,7 +86,6 @@ class _Screen3_5State extends State<Screen3_5> {
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: 55,
-                  // color: Colors.red,
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
@@ -114,7 +114,6 @@ class _Screen3_5State extends State<Screen3_5> {
                   ),
                 ),
                 SizedBox(height: 25),
-                
               ],
             ),
           ),

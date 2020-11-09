@@ -1,3 +1,5 @@
+// This is the main file for the ui which has the login signup switcher in it.
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen2_SignIn.dart';
@@ -78,7 +80,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Container(
                   width: MediaQuery.of(context).size.width,
                   height: 55,
-                  // color: Colors.red,
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
@@ -154,9 +155,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   GestureDetector(
-                    onTap: () {
-                      // initiateFacebookLogin();
-                    },
+                    onTap: () {},
                     child: Container(
                       height: 55,
                       width: 55,
@@ -220,76 +219,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
-  // _logout() async {
-  //   await facebookLogin.logOut();
-  //   onLoginStatusChanged(false);
-  //   print("Logged out");
-  // }
-
-  // _displayUserData(profileData) {
-  //   return Column(
-  //     mainAxisSize: MainAxisSize.min,
-  //     children: <Widget>[
-  //       Container(
-  //         height: 200.0,
-  //         width: 200.0,
-  //         decoration: BoxDecoration(
-  //           shape: BoxShape.circle,
-  //           image: DecorationImage(
-  //             fit: BoxFit.fill,
-  //             image: NetworkImage(
-  //               profileData['picture']['data']['url'],
-  //             ),
-  //           ),
-  //         ),
-  //       ),
-  //       SizedBox(height: 28.0),
-  //       Text(
-  //         "FBID ${profileData['id']}\n${profileData['name']}\n${profileData['email']}",
-  //         style: TextStyle(
-  //           fontSize: 20.0,
-  //           letterSpacing: 1.1,
-  //         ),
-  //         textAlign: TextAlign.center,
-  //       ),
-  //     ],
-  //   );
-  // }
-
-  // bool isLoggedIn = false;
-  // var profileData;
-
-  // var facebookLogin = FacebookLogin();
-
-  // void onLoginStatusChanged(bool isLoggedIn, {profileData}) {
-  //   setState(() {
-  //     this.isLoggedIn = isLoggedIn;
-  //     this.profileData = profileData;
-  //   });
-  // }
-
-  // void initiateFacebookLogin() async {
-  //   var facebookLoginResult = await facebookLogin.logIn(['email']);
-  //   print("facebook login result is ${facebookLoginResult.toString()}");
-
-  //   switch (facebookLoginResult.status) {
-  //     case FacebookLoginStatus.error:
-  //       onLoginStatusChanged(false);
-  //       break;
-  //     case FacebookLoginStatus.cancelledByUser:
-  //       onLoginStatusChanged(false);
-  //       break;
-  //     case FacebookLoginStatus.loggedIn:
-  //       var graphResponse = await http.get(
-  //           'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.width(400)&access_token=${facebookLoginResult.accessToken.token}');
-  //       print(graphResponse.toString());
-
-  //       var profile = json.decode(graphResponse.body);
-  //       print(profile.toString());
-
-  //       onLoginStatusChanged(true, profileData: profile);
-  //       break;
-  //   }
-  // }
 }

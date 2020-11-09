@@ -1,3 +1,5 @@
+// This file has the code related to match found screen when the match is still being searched
+
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

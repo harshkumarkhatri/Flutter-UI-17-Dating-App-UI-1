@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to the favourite users screen.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
@@ -19,7 +19,6 @@ class _Screen14State extends State<Screen14> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Favourite Users"),
         flexibleSpace: Container(
@@ -80,7 +79,6 @@ class _Screen14State extends State<Screen14> {
             Container(
               height: 120,
               child: ListView(
-                // This next line does the trick.
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   peopleNearYou(),
@@ -143,34 +141,6 @@ class _Screen14State extends State<Screen14> {
                 ],
               )),
             ),
-            //          SliverGrid(
-            //   gridDelegate:
-            //       SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-            //   delegate: SliverChildListDelegate(
-            //     [
-            //       BodyWidget(Colors.blue),
-            //       BodyWidget(Colors.green),
-            //       BodyWidget(Colors.yellow),
-            //       BodyWidget(Colors.orange),
-            //       BodyWidget(Colors.blue),
-            //       BodyWidget(Colors.red),
-            //     ],
-            //   ),
-            // ),
-            // SliverGrid(
-            //   delegate: SliverChildListDelegate([
-            //     BodyWidget(Colors.green),
-            //     BodyWidget(Colors.yellow),
-            //     BodyWidget(Colors.orange),
-            //     BodyWidget(Colors.blue),
-            //     BodyWidget(Colors.red),
-            //   ]),
-            //   gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-            //     childAspectRatio: 0.65,
-            //     crossAxisSpacing: 10,
-            //     mainAxisSpacing: 10,
-            //   ),
-            // ),
           ],
         )),
       ),

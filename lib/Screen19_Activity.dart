@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to the activity screen.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
@@ -21,7 +21,6 @@ class _Screen19State extends State<Screen19> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Activity"),
         flexibleSpace: Container(

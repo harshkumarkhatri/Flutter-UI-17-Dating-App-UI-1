@@ -1,3 +1,5 @@
+// This file has widget related to notification when someone follows you.
+
 import 'package:flutter/material.dart';
 
 Widget someoneFollowed(context) {
@@ -11,9 +13,7 @@ Widget someoneFollowed(context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -50,9 +50,6 @@ Widget someoneFollowed(context) {
                             ),
                           ),
                         ),
-                        // height: 20,
-                        // width: 90,
-                        // color: Colors.red,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           gradient: LinearGradient(

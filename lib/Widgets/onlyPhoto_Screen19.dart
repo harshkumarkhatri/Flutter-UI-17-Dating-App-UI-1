@@ -1,11 +1,12 @@
+// This file has the widget for screen 19 which has only photo in it.
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Widgets/onlyPhoto_photoItem_Screen19.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 Widget onlyPhoto(context) {
   return Container(
-    // height: 50,
-    // color: Colors.amber[600],
     child: Row(
       children: [
        

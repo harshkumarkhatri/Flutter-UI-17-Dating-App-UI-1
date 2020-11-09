@@ -1,9 +1,10 @@
+// This file has the widget for the message screen
+
 import 'package:flutter/material.dart';
 
 Widget messageItem(){
   return Container(
             height: 50,
-            // color: Colors.amber[600],
             child: Row(
               children: [
                 Stack(

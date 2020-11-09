@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to the chat screen
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
@@ -20,7 +20,6 @@ class _Screen10State extends State<Screen10> {
     return Scaffold(
         drawer: NavDrawer(),
         appBar: AppBar(
-          // backgroundColor: Colors.pink[600],
           centerTitle: true,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -131,7 +130,9 @@ class _Screen10State extends State<Screen10> {
                     color: Colors.white,
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.black45, blurRadius: 20, spreadRadius: 2)
+                          color: Colors.black45,
+                          blurRadius: 20,
+                          spreadRadius: 2)
                     ],
                     borderRadius: BorderRadius.circular(
                       18,

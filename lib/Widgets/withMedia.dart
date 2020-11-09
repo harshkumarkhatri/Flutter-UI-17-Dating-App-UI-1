@@ -1,3 +1,5 @@
+// This file has items related to messages which are sent to you with media.
+
 import 'package:flutter/material.dart';
 
 Widget withMedia(context, message) {
@@ -11,9 +13,7 @@ Widget withMedia(context, message) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [

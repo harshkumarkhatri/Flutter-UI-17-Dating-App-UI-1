@@ -1,9 +1,10 @@
+// This file has the widget related to the nearby user screen
+
 import 'package:flutter/material.dart';
 
 Widget nearbyUserITem(name, distance) {
   return Container(
     height: 50,
-    // color: Colors.amber[600],
     child: Row(
       children: [
         Container(
@@ -47,7 +48,6 @@ Widget nearbyUserITem(name, distance) {
             ],
           ),
         ),
-        // Spacer(),
         Icon(
           Icons.add,
           color: Colors.grey,

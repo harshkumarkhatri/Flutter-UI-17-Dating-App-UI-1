@@ -1,3 +1,5 @@
+// This file has the code related to sign up screen
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen2_SignIn.dart';
@@ -15,7 +17,6 @@ class _Screen3State extends State<Screen3> {
     return Scaffold(
       body: Container(
         width: MediaQuery.of(context).size.width,
-        // color: Colors.grey,
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -169,7 +170,6 @@ class _Screen3State extends State<Screen3> {
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: 55,
-                  // color: Colors.red,
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
@@ -217,15 +217,6 @@ class _Screen3State extends State<Screen3> {
                     ],
                   ),
                 ),
-                // Text(
-                //   "Already a Member? Sign in",
-                //   style: TextStyle(
-                //     color: Colors.white,
-                //     fontWeight: FontWeight.w300,
-                //     letterSpacing: 1.2,
-                //     fontSize: 14,
-                //   ),
-                // ),
               ],
             ),
           ),

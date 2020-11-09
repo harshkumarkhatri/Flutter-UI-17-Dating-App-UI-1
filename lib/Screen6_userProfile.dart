@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to user profile
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen7_EditProfile.dart';
@@ -17,7 +17,6 @@ class _Screen6State extends State<Screen6> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Profile"),
         flexibleSpace: Container(
@@ -86,7 +85,6 @@ class _Screen6State extends State<Screen6> {
                 Padding(
                   padding: EdgeInsets.only(top: 15, bottom: 15),
                   child: Container(
-                    // height: 150,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [

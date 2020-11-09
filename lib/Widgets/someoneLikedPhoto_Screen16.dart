@@ -1,3 +1,6 @@
+// This file has widget related to notification when someone likes a photo.
+
+
 import 'package:flutter/material.dart';
 
 Widget someoneLiked(context) {
@@ -11,9 +14,7 @@ Widget someoneLiked(context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [

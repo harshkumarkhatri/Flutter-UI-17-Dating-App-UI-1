@@ -1,3 +1,5 @@
+// This file has the widget message screen which has only text in it.
+
 import 'package:flutter/material.dart';
 
 
@@ -12,9 +14,7 @@ Widget simpleMessage(context,message){
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                        // height: 50,
                         width: MediaQuery.of(context).size.width,
-                        // color: Colors.amber[600],
                         decoration: BoxDecoration(
                           color: Colors.white,
                           boxShadow: [

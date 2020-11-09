@@ -1,8 +1,6 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to settings screen
 
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'NavDrawer.dart';
 
@@ -26,7 +24,6 @@ class _Screen11State extends State<Screen11> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Settings"),
         flexibleSpace: Container(

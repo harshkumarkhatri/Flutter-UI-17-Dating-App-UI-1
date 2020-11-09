@@ -1,4 +1,4 @@
-// This is the unlock screen where the fingerprint is made
+// This file has the code related to the users screen.
 
 import 'package:flutter/material.dart';
 

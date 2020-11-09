@@ -1,3 +1,5 @@
+// This file has widget related to notification when someone sends a personal message.
+
 import 'package:flutter/material.dart';
 
 Widget someoneSentPersonalMessage(context) {
@@ -11,9 +13,7 @@ Widget someoneSentPersonalMessage(context) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                // height: 50,
                 width: MediaQuery.of(context).size.width,
-                // color: Colors.amber[600],
                 decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -50,9 +50,6 @@ Widget someoneSentPersonalMessage(context) {
                             ),
                           ),
                         ),
-                        // height: 20,
-                        // width: 90,
-                        // color: Colors.red,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           gradient: LinearGradient(

@@ -1,3 +1,5 @@
+// This file has widget for the people near you screen.
+
 import 'package:flutter/material.dart';
 
 Widget peopleNearYou() {
@@ -5,7 +7,6 @@ Widget peopleNearYou() {
     padding: const EdgeInsets.only(right:8.0),
     child: Container(
       width: 90.0,
-      // color: Colors.red,
       child: Column(
         children: [
           Container(

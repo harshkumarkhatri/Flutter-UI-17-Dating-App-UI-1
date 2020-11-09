@@ -1,7 +1,5 @@
 // This file has all the screen which do not have a particular clickable thing in the app
 
-// This is the unlock screen where the fingerprint is made
-
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -14,11 +12,9 @@ import 'package:flutter_ui_17_dating_app_ui_1/Screen20_Tour.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen21_MatchFound.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen22_FoundMatchSearching.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen23_multiLoginOptions.dart';
-import 'package:flutter_ui_17_dating_app_ui_1/Screen6_userProfile.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen8_Biography.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen9_MatchFound.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Widgets/uaScreenItems.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 
 import 'NavDrawer.dart';
@@ -44,7 +40,6 @@ class _UAScreensState extends State<UAScreens> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        // backgroundColor: Colors.pink[600],
         centerTitle: true,
         title: Text("Unlock"),
         flexibleSpace: Container(

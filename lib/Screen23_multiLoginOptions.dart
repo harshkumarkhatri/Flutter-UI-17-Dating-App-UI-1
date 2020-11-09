@@ -1,3 +1,5 @@
+// This file has the code related to the multiple sign in options which i have implemented in the app.
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
@@ -15,7 +17,7 @@ class _Screen23State extends State<Screen23> {
   var loggedIn = false;
   var firebaseAuth = FirebaseAuth.instance;
 
-  // This widget is the root of your application.
+  // This widget is the root of the application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(home: _buildSocialLogin());

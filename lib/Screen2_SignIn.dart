@@ -1,3 +1,5 @@
+// This file has the code related to sign in screen
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen3.5_ForgotPassword.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/Screen3_Signup.dart';
@@ -16,7 +18,6 @@ class _Screen2State extends State<Screen2> {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        // color: Colors.grey,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.center,
@@ -114,7 +115,6 @@ class _Screen2State extends State<Screen2> {
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     height: 55,
-                    // color: Colors.red,
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
