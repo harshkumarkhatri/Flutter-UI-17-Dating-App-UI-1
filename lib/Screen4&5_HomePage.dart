@@ -50,7 +50,18 @@ class _Screen4State extends State<Screen4> {
         slivers: [
           SliverList(
             delegate: SliverChildListDelegate(
-              [],
+              [
+                Center(
+                  child: Container(
+                    child: Text(
+                      "Fingerprint was not implemented here because of some version issues which were arrising due to androidx thing.",
+                      style: TextStyle(
+                        color: Colors.red,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ],
