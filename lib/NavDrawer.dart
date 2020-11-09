@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_17_dating_app_ui_1/Screen15_Messages.dart';
+import 'package:flutter_ui_17_dating_app_ui_1/Screen16_Notifications.dart';
 import 'package:flutter_ui_17_dating_app_ui_1/ua_Screens.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -137,7 +139,15 @@ class NavDrawer extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                onTap: () => {Navigator.pop(context)},
+                onTap: () => {
+                  Navigator.pop(context),
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => Screen15(),
+                    ),
+                  ),
+                },
               ),
             ),
             Ink(
@@ -170,7 +180,15 @@ class NavDrawer extends StatelessWidget {
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                onTap: () => {Navigator.pop(context)},
+                onTap: () => {
+                  Navigator.pop(context),
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => Screen16(),
+                    ),
+                  ),
+                },
               ),
             ),
             Ink(
